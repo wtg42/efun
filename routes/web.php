@@ -22,5 +22,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/app', function () {
-    return view('layouts.guest')->with('slot', 'hello!!');
+    return view('layouts.efun')->with('slot', 'hello!!');
 });
