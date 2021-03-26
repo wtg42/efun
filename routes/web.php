@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.efun');
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::get('/app', function () {
-    return view('layouts.efun')->with('slot', 'hello!!');
+Route::get('/workbench', function () {
+    return view('welcome');
 });
