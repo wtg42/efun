@@ -29,7 +29,7 @@
                     <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                         <div class="pr-12">
                             <h1 class="text-white font-semibold text-5xl">
-                                Your story starts with us.
+                                選一帆，永遠一帆風順。
                             </h1>
                             <p class="mt-4 text-lg text-gray-300">
                                 This is a simple example of a Landing Page you can build using
@@ -59,7 +59,7 @@
                                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                                     <i class="fas fa-award"></i>
                                 </div>
-                                <h6 class="text-xl font-semibold">Awarded Agency</h6>
+                                <h6 class="text-xl font-semibold">關於我們</h6>
                                 <p class="mt-2 mb-4 text-gray-600">
                                     Divide details about your product or agency work into parts.
                                     A paragraph describing a feature will be enough.
@@ -75,7 +75,7 @@
                                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                                     <i class="fas fa-retweet"></i>
                                 </div>
-                                <h6 class="text-xl font-semibold">Free Revisions</h6>
+                                <h6 class="text-xl font-semibold">服務項目</h6>
                                 <p class="mt-2 mb-4 text-gray-600">
                                     Keep you user engaged by providing meaningful information.
                                     Remember that by this time, the user is curious.
@@ -91,7 +91,7 @@
                                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
                                     <i class="fas fa-fingerprint"></i>
                                 </div>
-                                <h6 class="text-xl font-semibold">Verified Company</h6>
+                                <h6 class="text-xl font-semibold">經營理念</h6>
                                 <p class="mt-2 mb-4 text-gray-600">
                                     Write a few lines about each one. A paragraph describing a
                                     feature will be enough. Keep you user engaged!
@@ -231,7 +231,7 @@
                 <div class="flex flex-wrap">
                     <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                         <div class="px-6">
-                            <img alt="..." {{-- src="./assets/img/team-1-800x800.jpg" --}} src="{{ asset('img/team-1-800x800.jpg') }}"
+                            <img alt="..." src="{{ asset('img/shipping-containers.png') }}"
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">進出口報關</h5>
@@ -256,7 +256,7 @@
                     </div>
                     <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                         <div class="px-6">
-                            <img alt="..." {{-- src="./assets/img/team-2-800x800.jpg" --}} src="{{ asset('img/team-2-800x800.jpg') }}"
+                            <img alt="..." src="{{ asset('img/picjumbocom.png') }}"
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">代辦保險證明</h5>
@@ -278,7 +278,7 @@
                     </div>
                     <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                         <div class="px-6">
-                            <img alt="..." {{-- src="./assets/img/team-3-800x800.jpg" --}} src="{{ asset('img/team-3-800x800.jpg') }}"
+                            <img alt="..." src="{{ asset('img/cargo-truck.png') }}"
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">拖車、卡車物流安排</h5>
@@ -303,7 +303,7 @@
                     </div>
                     <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                         <div class="px-6">
-                            <img alt="..." {{-- src="./assets/img/team-4-470x470.png" --}} src="{{ asset('img/team-4-470x470.png') }}"
+                            <img alt="..." src="{{ asset('img/in-flight.png') }}"
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">海運、空運訂艙</h5>
