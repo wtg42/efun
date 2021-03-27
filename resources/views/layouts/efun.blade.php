@@ -107,20 +107,18 @@
                             <i class="fas fa-user-friends text-xl"></i>
                         </div>
                         <h3 class="text-3xl mb-2 font-semibold leading-normal">
-                            Working with us is a pleasure
+                            將你的貨品完整進出關是我們目標。
                         </h3>
                         <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                            Don't let your uses guess by attaching tooltips and popoves to
-                            any element. Just make sure you enable them first via
-                            JavaScript.
+                            一帆報關擁有30多年的歷史，服務過各行各業。
+                            專業、誠信、穩定是我們的信念。
+                            客戶支持以及收費合理是我們的價值。
                         </p>
                         <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                            The kit comes with three pre-built pages to help you get started
-                            faster. You can change the text and images and you're good to
-                            go. Just make sure you enable them first via JavaScript.
+                            EFUN CUSTOMS BROKER has 30 years of history, served all walks of life.
+                            Professional, integrity, stability is our belief.
+                            Customer support and reasonable fees are our value.
                         </p>
-                        <a href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                            class="font-bold text-gray-800 mt-8">Check Tailwind Starter Kit!</a>
                     </div>
                     <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
                         <div
@@ -222,7 +220,7 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-wrap justify-center text-center mb-24">
                     <div class="w-full lg:w-6/12 px-4">
-                        <h2 class="text-4xl font-semibold">Here are our heroes</h2>
+                        <h2 class="text-4xl font-semibold">我們提供以下服務項目</h2>
                         <p class="text-lg leading-relaxed m-4 text-gray-600">
                             According to the National Oceanic and Atmospheric
                             Administration, Ted, Scambos, NSIDClead scentist, puts the
@@ -236,7 +234,7 @@
                             <img alt="..." {{-- src="./assets/img/team-1-800x800.jpg" --}} src="{{ asset('img/team-1-800x800.jpg') }}"
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">Ryan Tompson</h5>
+                                <h5 class="text-xl font-bold">進出口報關</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                     Web Developer
                                 </p>
@@ -261,7 +259,7 @@
                             <img alt="..." {{-- src="./assets/img/team-2-800x800.jpg" --}} src="{{ asset('img/team-2-800x800.jpg') }}"
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">Romina Hadid</h5>
+                                <h5 class="text-xl font-bold">代辦保險證明</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                     Marketing Specialist
                                 </p>
@@ -283,7 +281,7 @@
                             <img alt="..." {{-- src="./assets/img/team-3-800x800.jpg" --}} src="{{ asset('img/team-3-800x800.jpg') }}"
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">Alexa Smith</h5>
+                                <h5 class="text-xl font-bold">拖車、卡車物流安排</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                     UI/UX Designer
                                 </p>
@@ -308,7 +306,7 @@
                             <img alt="..." {{-- src="./assets/img/team-4-470x470.png" --}} src="{{ asset('img/team-4-470x470.png') }}"
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">Jenna Kardi</h5>
+                                <h5 class="text-xl font-bold">海運、空運訂艙</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                     Founder and CEO
                                 </p>
@@ -345,12 +343,12 @@
             <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
                 <div class="flex flex-wrap text-center justify-center">
                     <div class="w-full lg:w-6/12 px-4">
-                        <h2 class="text-4xl font-semibold text-white">Build something</h2>
-                        <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                        <h2 class="text-4xl font-semibold text-white">相關連結</h2>
+                        {{-- <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                             Put the potentially record low maximum sea ice extent tihs year
                             down to low ice. According to the National Oceanic and
                             Atmospheric Administration, Ted, Scambos.
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
                 <div class="flex flex-wrap mt-12 justify-center">
@@ -360,11 +358,10 @@
                             <i class="fas fa-medal text-xl"></i>
                         </div>
                         <h6 class="text-xl mt-5 font-semibold text-white">
-                            Excelent Services
+                            資料查詢
                         </h6>
                         <p class="mt-2 mb-4 text-gray-500">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            ECFA、貿易條件、全國法規資料庫。
                         </p>
                     </div>
                     <div class="w-full lg:w-3/12 px-4 text-center">
@@ -373,11 +370,10 @@
                             <i class="fas fa-poll text-xl"></i>
                         </div>
                         <h5 class="text-xl mt-5 font-semibold text-white">
-                            Grow your market
+                            政府機關
                         </h5>
                         <p class="mt-2 mb-4 text-gray-500">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            財政部關務署、經濟部工業局、外貿協會、經濟部標準檢驗局、交通部。
                         </p>
                     </div>
                     <div class="w-full lg:w-3/12 px-4 text-center">
@@ -385,10 +381,9 @@
                             class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                             <i class="fas fa-lightbulb text-xl"></i>
                         </div>
-                        <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
+                        <h5 class="text-xl mt-5 font-semibold text-white">線上工具</h5>
                         <p class="mt-2 mb-4 text-gray-500">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            時區查詢、地址翻譯、姓名翻譯。
                         </p>
                     </div>
                 </div>
