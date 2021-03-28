@@ -6,8 +6,6 @@
                 <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
                     <form wire:submit.prevent="submitForm">
 
-
-
                         @if (session()->has('success_message'))
                             <div class="bg-green-100 p-5 w-full sm rounded">
                                 <div class="flex justify-between">
@@ -43,14 +41,15 @@
                                 <input wire:model.lazy="name" type="text"
                                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                                     placeholder="聯絡人姓名" style="transition: all 0.15s ease 0s;" />
-                                @error('name')<span class="error">{{ $message }}</span> @enderror
+                                @error('name')<span class="text-red-500 text-xs">{{ $message }}</span> @enderror
                             </div>
                             <div class="relative w-full mb-3">
                                 <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
                                     for="email">電子信箱</label>
-                                <input wire:model.lazy="email" type="email"
+                                <input wire:model.lazy="email"
                                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                                     placeholder="Email" style="transition: all 0.15s ease 0s;" />
+                                @error('email') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
                             </div>
                             <div class="relative w-full mb-3">
                                 <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
@@ -58,6 +57,8 @@
                                 <textarea wire:model.lazy="message" rows="4" cols="80"
                                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                                     placeholder="留下你的訊息"></textarea>
+                                @error('message') <span class="text-red-500 text-xs">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="text-center mt-6">
                                 <button type="submit"
