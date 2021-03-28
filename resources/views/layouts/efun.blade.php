@@ -400,23 +400,18 @@
             <div class="flex flex-wrap">
                 <div class="w-full lg:w-6/12 px-4">
                     <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
-                    <h5 class="text-lg mt-0 mb-2 text-gray-700">
-                        Find us on any of these platforms, we respond 1-2 business days.
+                    <h5 class="text-base mt-0 mb-2 text-gray-700">
+                        您可以利用以下方式與我們聯絡，我們會在兩個工作天內回覆您。
                     </h5>
-                    <div class="mt-6">
+                    <div class="mt-3">
+                        <p class="leading-relaxed mt-1 mb-1 text-gray-600">地址：台北市松江路1000號120樓之一</p>
+                        <p class="leading-relaxed mt-1 mb-1 text-gray-600">電話：(02)25159288</p>
+                        <p class="leading-relaxed mt-1 mb-1 text-gray-600">EMAIL：efun.cb@gmail.com</p>
                         <button
-                            class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                            type="button">
-                            <i class="flex fab fa-twitter"></i></button><button
+                            onclick="window.location.href='https://www.facebook.com/%E4%B8%80%E5%B8%86%E5%A0%B1%E9%97%9C%E8%B3%87%E8%A8%8A%E8%A1%8C-351932298606336/'"
                             class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                             type="button">
-                            <i class="flex fab fa-facebook-square"></i></button><button
-                            class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                            type="button">
-                            <i class="flex fab fa-dribbble"></i></button><button
-                            class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                            type="button">
-                            <i class="flex fab fa-github"></i>
+                            <i class="flex fab fa-facebook-square"></i>
                         </button>
                     </div>
                 </div>
