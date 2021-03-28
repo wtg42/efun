@@ -63,7 +63,7 @@
                             <div class="text-center mt-6">
                                 <span class="inline-flex rounded-md shadow-sm">
                                     <button type="submit"
-                                        class="inline-flex bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                        class="inline-flex bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 disabled:opacity-50"
                                         type="button" style="transition: all 0.15s ease 0s;">
                                         <svg wire:loading wire:target='submitForm'
                                             class="animate-spin h-5 w-5 mr-3 text-white"
