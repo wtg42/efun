@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
+use App\Models\ContactUs;
 
 class EfunContactForm extends Component
 {
@@ -25,6 +26,13 @@ class EfunContactForm extends Component
 
         $this->validate();
         // save contact
+        $post = ContactUs::create([
+            'name' => $this->name,
+            'email' => $this->email,
+            'message' => $this->message,
+        ]);
+
+        $post->save();
 
         session()->flash('success_message', '已收到你的提交資料，我們會盡快與你聯絡。');
         $this->reset();
