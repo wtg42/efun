@@ -46,7 +46,6 @@ class EfunContactForm extends Component
         // save contact
         $post = ContactUs::create($validatedData);
         $post->save();
-
         session()->flash('success_message', '已收到你的提交資料，我們會盡快與你聯絡。');
         $this->reset();
     }

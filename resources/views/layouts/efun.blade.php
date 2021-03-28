@@ -165,11 +165,9 @@
                                 class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
                                 <i class="fas fa-rocket text-xl"></i>
                             </div>
-                            <h3 class="text-3xl font-semibold">A growing company</h3>
+                            <h3 class="text-3xl font-semibold">快速穩定的整合式服務</h3>
                             <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                                The extension comes with three pre-built pages to help you get
-                                started faster. You can change the text and images and you're
-                                good to go.
+                                你無需擔心太多報關流程，一帆報關都會幫你處理好，連最小的細節我們都非常注意。
                             </p>
                             <ul class="list-none mt-6">
                                 <li class="py-2">
