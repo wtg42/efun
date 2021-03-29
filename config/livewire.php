@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'asset_url' => 'https://efun-cb.herokuapp.com',
+    'asset_url' => 'https://efun-cb.herokuapp.com/public',
 
     /*
     |--------------------------------------------------------------------------
