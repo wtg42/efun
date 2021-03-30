@@ -21,7 +21,7 @@
     <main>
         <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
             <div class="absolute top-0 w-full h-full bg-center bg-cover"
-                style='background-image: url("{{ asset('/img/container-cargo-ship-sea.jpg') }}");'>
+                style='background-image: url("{{ asset('/img/container-cargo-ship.jpg') }}");'>
                 <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
             </div>
             <div class="container relative mx-auto">
@@ -227,7 +227,7 @@
                 <div class="flex flex-wrap">
                     <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                         <div class="px-6">
-                            <img alt="..." src="{{ asset('img/shipping-containers.png') }}"
+                            <img alt="..." src="{{ asset('img/shipping-containers.jpg') }}"
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">進出口報關</h5>
