@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <meta name="description" content="一帆報關行，專門處理進口出口報關文件、拖車卡車安排，讓你的貨品一帆風順。" />
+    <meta name="robots" content="all" />
+    <meta name="distribution" content="Taiwan" />
     {{-- <link rel="shortcut icon" href="./assets/img/favicon.ico" /> --}}
     <link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}" />
     <link rel="apple-touch-icon" sizes="76x76" {{-- href="./assets/img/apple-icon.png" --}} href="{{ asset('/img/apple-icon.png') }}" />
@@ -13,7 +16,7 @@
         href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" /> --}}
     <link rel="stylesheet" href="{{ asset('/css/app.css') }}" />
     @livewireStyles
-    <title>EFUN資訊報關行</title>
+    <title>一帆資訊報關行 | EFUN.CB</title>
 </head>
 
 <body class="text-gray-800 antialiased">
