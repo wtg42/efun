@@ -21,6 +21,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
+// workbench panel
+Route::get('/contract-us-list', function () {
+    return view('workbench-contract-us-view');
+})->name('contract-us-list');
+
 Route::get('/workbench', function () {
     return view('welcome');
 });
