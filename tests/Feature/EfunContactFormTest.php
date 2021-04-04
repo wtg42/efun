@@ -9,6 +9,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class EfunContactFormTest extends TestCase
 {
+    use RefreshDatabase;
     /**
      * A basic feature test example.
      *
