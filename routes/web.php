@@ -22,7 +22,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 // workbench panel
-Route::get('/contract-us-list', function () {
+Route::middleware(['auth:sanctum', 'verified'])->get('/contract-us-list', function () {
     return view('workbench-contract-us-view');
 })->name('contract-us-list');
 

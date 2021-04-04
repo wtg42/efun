@@ -15,3 +15,4 @@ class EfunContractUsList extends Component
         return view('livewire.efun-contract-us-list', $this->userList);
     }
 }
+// to-do wire:click刪除紀錄
