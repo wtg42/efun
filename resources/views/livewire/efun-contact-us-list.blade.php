@@ -15,29 +15,37 @@
                 <th
                     class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">
                     Date On Site</th>
+                <th
+                    class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                    Remove Item</th>
             </tr>
         </thead>
         <tbody>
-            @foreach ($userList as $customer)
+            @foreach($userList as $customer)
                 <tr>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-1/5">
-                    <p class="text-gray-900 whitespace-no-wrap text-center">
-                        {{ $customer->name }}
-                    </p>
+                        <p class="text-gray-900 whitespace-no-wrap text-center">
+                            {{ $customer->name }}
+                        </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-1/5">
-                    <p class="text-gray-900 whitespace-no-wrap text-center">
-                        {{ $customer->email }}
-                    </p>
+                        <p class="text-gray-900 whitespace-no-wrap text-center">
+                            {{ $customer->email }}
+                        </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-2/5">
-                    <p class="text-gray-900 whitespace-no-wrap text-center">
-                        {{ $customer->message }}
-                    </p>
+                        <p class="text-gray-900 whitespace-no-wrap text-center">
+                            {{ $customer->message }}
+                        </p>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-2/5">
-                    <p class="text-gray-900 whitespace-no-wrap text-center">
-                        {{ $customer->updated_at }}
-                    </p>
+                        <p class="text-gray-900 whitespace-no-wrap text-center">
+                            {{ $customer->updated_at }}
+                        </p>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-2/5">
+                        <button wire:click="removeFromTableRow({{ $customer->id }})" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Remove
+                        </button>
                     </td>
                 </tr>
             @endforeach
