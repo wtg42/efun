@@ -8,6 +8,7 @@
     <meta name="description" content="一帆報關行，專門處理進口出口報關文件、拖車卡車安排，讓你的貨品一帆風順。" />
     <meta name="robots" content="all" />
     <meta name="distribution" content="Taiwan" />
+    <meta name="google-site-verification" content="Ca_H9h3ezmSrN5gVvP4fwoCwIxFYFor_f1yjM6DZW1o" />
     <link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}" />
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('/img/apple-icon.png') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
