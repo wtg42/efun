@@ -232,10 +232,10 @@
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">進出口報關</h5>
-                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                {{-- <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                     Web Developer
-                                </p>
-                                <div class="mt-6">
+                                </p> --}}
+                                {{-- <div class="mt-6">
                                     <button
                                         class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                                         type="button">
@@ -247,7 +247,7 @@
                                         type="button">
                                         <i class="fab fa-dribbble"></i>
                                     </button>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -257,10 +257,10 @@
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">代辦保險證明</h5>
-                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                {{-- <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                     Marketing Specialist
-                                </p>
-                                <div class="mt-6">
+                                </p> --}}
+                                {{-- <div class="mt-6">
                                     <button
                                         class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                                         type="button">
@@ -269,7 +269,7 @@
                                         type="button">
                                         <i class="fab fa-facebook-f"></i>
                                     </button>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -279,10 +279,10 @@
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">拖車、卡車物流安排</h5>
-                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                {{-- <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                     UI/UX Designer
-                                </p>
-                                <div class="mt-6">
+                                </p> --}}
+                                {{-- <div class="mt-6">
                                     <button
                                         class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                                         type="button">
@@ -294,7 +294,7 @@
                                         type="button">
                                         <i class="fab fa-instagram"></i>
                                     </button>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -304,10 +304,10 @@
                                 class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">海運、空運訂艙</h5>
-                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                {{-- <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                     Founder and CEO
-                                </p>
-                                <div class="mt-6">
+                                </p> --}}
+                                {{-- <div class="mt-6">
                                     <button
                                         class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                                         type="button">
@@ -322,7 +322,7 @@
                                         type="button">
                                         <i class="fab fa-instagram"></i>
                                     </button>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
