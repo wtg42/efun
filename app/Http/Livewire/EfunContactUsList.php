@@ -4,17 +4,19 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\ContactUs;
+use Livewire\WithPagination;
 
 class EfunContactUsList extends Component
 {
-
-    public $userList;
+    use WithPagination; // 分頁用
+    // public $userList;
 
     public function render()
     {
-        $this->userList = ContactUs::all();
-
-        return view('livewire.efun-contact-us-list', $this->userList);
+        // $this->userList = ContactUs::all();
+        // return view('livewire.efun-contact-us-list');
+        $userList = ContactUs::paginate(1);
+        return view('livewire.efun-contact-us-list', ['userList' => $userList]); // 分頁用
     }
 
     public function removeFromTableRow($removeID)
