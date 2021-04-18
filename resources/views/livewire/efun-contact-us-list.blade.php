@@ -49,6 +49,7 @@
                     </td>
                 </tr>
             @endforeach
+            {{ $userList->links() }}
         </tbody>
     </table>
 </div>

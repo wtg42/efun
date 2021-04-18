@@ -16,9 +16,10 @@ class ContactUsController extends Controller
     public function index()
     {
         $contactUs = ContactUs::where('id', '>', 3)->take(10)->get();
-        return response()->json($contactUs, 200);
+        $contactUs = ContactUs::paginate(1);
+        // return response()->json($contactUs, 200);
         // return new ContactUsResource($contactUs);
-        // return ContactUsResource::collection($contactUs);
+        return ContactUsResource::collection($contactUs);
     }
 
     /**
