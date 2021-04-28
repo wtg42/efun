@@ -15,11 +15,12 @@ class ContactUsController extends Controller
      */
     public function index()
     {
-        $contactUs = ContactUs::where('id', '>', 3)->take(10)->get();
-        $contactUs = ContactUs::paginate(1);
+        // $contactUs = ContactUs::where('id', '>', 3)->take(10)->get();
+        $contactUs = ContactUs::where('id', '>=', 3)->paginate(2);
+        // $contactUs = ContactUs::paginate(1);
         // return response()->json($contactUs, 200);
-        // return new ContactUsResource($contactUs);
-        return ContactUsResource::collection($contactUs);
+        // return new ContactUsResource($contactUs);// 這個會500爆炸
+        return ContactUsResource::collection($contactUs)->response()->setStatusCode(200);
     }
 
     /**
