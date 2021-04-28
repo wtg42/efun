@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class ContactUs extends Model
 {
     protected $table = 'contact_us';
-    protected $appends = array('test'); // new
+    protected $appends = array('test'); // 陣列新增model欄位
     use SoftDeletes;
     use HasFactory;
     protected $fillable = [
@@ -25,6 +25,7 @@ class ContactUs extends Model
 
     public function getTestAttribute($value)
     {
+        $value = 'Test Value:'.$this->name;
         return $this->attributes['test'] = $value;
     }
 }
