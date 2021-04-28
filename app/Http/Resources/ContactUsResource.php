@@ -21,6 +21,7 @@ class ContactUsResource extends JsonResource
             'name' => $this->name,
             'messages' => $this->message,
             'createTime' => Carbon::parse($this->created_at)->toDateTimeString(),
+            'test' => $this->test,// 對應 model->protected $appends
         ];
     }
 }

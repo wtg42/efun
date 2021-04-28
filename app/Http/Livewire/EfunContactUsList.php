@@ -15,7 +15,7 @@ class EfunContactUsList extends Component
     {
         // $this->userList = ContactUs::all();
         // return view('livewire.efun-contact-us-list');
-        $userList = ContactUs::paginate(1);
+        $userList = ContactUs::paginate(2);
         return view('livewire.efun-contact-us-list', ['userList' => $userList]); // 分頁用
     }
 
