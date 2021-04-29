@@ -23,6 +23,11 @@ class EfunFooter extends Component
      */
     public function render()
     {
-        return view('components.efun-footer');
+        $renderData = array(
+            'addr' => '地址：台北市松江路1號12樓之一',
+            'tel'  => '電話：(02)25159288',
+            'mail' => 'EMAIL：efun.cb@gmail.com',
+        );
+        return view('components.efun-footer', $renderData);
     }
 }

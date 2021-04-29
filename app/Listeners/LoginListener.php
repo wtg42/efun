@@ -24,6 +24,7 @@ class LoginListener
      */
     public function handle($event)
     {
+        // 登入紀錄Log
         $userLogs = new UserLog();
         $userLogs->create([
             'user_id' => $event->user->id,

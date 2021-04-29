@@ -389,8 +389,7 @@
         <livewire:efun-contact-form />
 
     </main>
-    <x-efun-footer>
-    </x-efun-footer>
+    <x-efun-footer/>
     @livewireScripts
 </body>
 <script>
