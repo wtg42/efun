@@ -19,6 +19,10 @@
                     <x-jet-nav-link href="{{ route('contract-us-list') }}" :active="request()->routeIs('contract-us-list')">
                         {{ __('Contract Us') }}
                     </x-jet-nav-link>
+
+                    <x-jet-nav-link href="{{ route('user-login-history') }}" :active="request()->routeIs('user-login-history')">
+                        {{ __('User Login History') }}
+                    </x-jet-nav-link>
                 </div>
             </div>
 

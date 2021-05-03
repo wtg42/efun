@@ -26,6 +26,10 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/contract-us-list', functi
     return view('workbench-contract-us-view');
 })->name('contract-us-list');
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/user-login-history', function () {
+    return view('workbench-user-login-history');
+})->name('user-login-history');
+
 Route::get('/workbench', function () {
     return view('welcome');
 });
