@@ -16,23 +16,22 @@
             </tr>
         </thead>
         <tbody>
-            {{-- {{ dd($userLoginHistory) }} --}}
             @foreach($userLoginHistory as $records)
             {{-- {{ dd($records) }} --}}
                 <tr>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-1/5">
                         <p class="text-gray-900 whitespace-no-wrap text-center">
-                            {{ $records->name }}
+                            {{ $records->user['name'] }}
                         </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-1/5">
                         <p class="text-gray-900 whitespace-no-wrap text-center">
-                            {{ $records->email }}
+                            {{ $records->user['email'] }}
                         </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-2/5">
                         <p class="text-gray-900 whitespace-no-wrap text-center">
-                            {{ $records->updated_at }}
+                            {{ $records->login_time }}
                         </p>
                     </td>
                 </tr>

@@ -8,7 +8,7 @@ use Livewire\WithPagination;
 
 class EfunContactUsList extends Component
 {
-    use WithPagination; // 分頁用
+    use WithPagination; // livewire分頁用 沒加會變成reload分頁
     // public $userList;
 
     public function render()
