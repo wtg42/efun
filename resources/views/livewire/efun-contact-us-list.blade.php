@@ -21,7 +21,8 @@
             </tr>
         </thead>
         <tbody>
-            @foreach($userList as $customer)
+            {{-- 可以改用@each('view.name.compoment', $userList, 'customer', 'view.empty.name.component') --}}
+            @forelse($userList as $customer)
                 <tr>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-1/5">
                         <p class="text-gray-900 whitespace-no-wrap text-center">
@@ -49,7 +50,11 @@
                         </button>
                     </td>
                 </tr>
-            @endforeach
+                @empty
+                <tr>
+                    <td colspan="5" class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-1/5"><p class="text-center">No customers found.</p></td>
+                </tr>
+            @endforelse
             {{ $userList->links() }}
         </tbody>
     </table>
