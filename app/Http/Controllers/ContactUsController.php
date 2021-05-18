@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\ContactUs;
+use App\Mail\ContactUsMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use App\Http\Resources\ContactUsResource;
 
 class ContactUsController extends Controller
@@ -87,5 +89,18 @@ class ContactUsController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    /**
+     *
+     * @param mixed $request
+     * @return \Illuminate\Routing\Redirector|\Illuminate\Http\RedirectResponse
+     */
+    public function sendEmail()
+    {
+        // dd(request()->route('customerEmail'));
+        Mail::to('weiting.shi1982@gmail.com')->queue(new ContactUsMail());
+
+        // return redirect('/contact-us-list');
     }
 }
