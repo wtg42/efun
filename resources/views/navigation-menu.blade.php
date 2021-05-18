@@ -16,8 +16,8 @@
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
 
-                    <x-jet-nav-link href="{{ route('contract-us-list') }}" :active="request()->routeIs('contract-us-list')">
-                        {{ __('Contract Us') }}
+                    <x-jet-nav-link href="{{ route('contact-us-list') }}" :active="request()->routeIs('contact-us-list')">
+                        {{ __('Contact Us') }}
                     </x-jet-nav-link>
 
                     <x-jet-nav-link href="{{ route('user-login-history') }}" :active="request()->routeIs('user-login-history')">
@@ -150,7 +150,7 @@
                 {{ __('Dashboard') }}
             </x-jet-responsive-nav-link>
 
-            <x-jet-responsive-nav-link href="{{ route('contract-us-list') }}" :active="request()->routeIs('contract-us-list')">
+            <x-jet-responsive-nav-link href="{{ route('contact-us-list') }}" :active="request()->routeIs('contact-us-list')">
                 {{ __('Contract Us') }}
             </x-jet-responsive-nav-link>
         </div>

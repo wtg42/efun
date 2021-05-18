@@ -19,5 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::apiResource('ContactUs', ContactUsController::class);
+Route::apiResource('/ContactUs', ContactUsController::class);
 // Route::get('ContactUs', [ContactUsController::class, 'index']);
+
+Route::get('/mailto-customer/{customerEmail}', [ContactUsController::class, 'sendEmail']);
+

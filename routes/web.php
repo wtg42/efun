@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactUsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,11 +22,12 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-// workbench panel
-Route::middleware(['auth:sanctum', 'verified'])->get('/contract-us-list', function () {
-    return view('workbench-contract-us-view');
-})->name('contract-us-list');
+// workbench panel contact us tab
+Route::middleware(['auth:sanctum', 'verified'])->get('/contact-us-list', function () {
+    return view('workbench-contact-us-view');
+})->name('contact-us-list');
 
+// workbench panel user login history tab
 Route::middleware(['auth:sanctum', 'verified'])->get('/user-login-history', function () {
     return view('workbench-user-login-history');
 })->name('user-login-history');
@@ -33,3 +35,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/user-login-history', func
 Route::get('/workbench', function () {
     return view('welcome');
 });
+
+// Contact Us Send Mail
+Route::get('/mailto-customer/{customerEmail}', [ContactUsController::class, 'sendEmail']);

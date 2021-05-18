@@ -18,11 +18,21 @@ class ContactUs extends Model
         'message',
     ];
 
+    /**
+     * 姓名第一個字母大寫輸出
+     * @param mixed $value
+     * @return string
+     */
     public function getNameAttribute($value)
     {
         return $this->attributes['name'] = ucfirst($value);
     }
 
+    /**
+     * 測試api輸出
+     * @param mixed $value
+     * @return string
+     */
     public function getTestAttribute($value)
     {
         $value = 'Test Value:'.$this->name;
