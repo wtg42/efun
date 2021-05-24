@@ -100,7 +100,6 @@ class ContactUsController extends Controller
     {
         // dd(request()->route('customerEmail'));
         Mail::to('weiting.shi1982@gmail.com')->queue(new ContactUsMail());
-
-        // return redirect('/contact-us-list');
+        return redirect('/contact-us-list')->setStatusCode(200);
     }
 }
