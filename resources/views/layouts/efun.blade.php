@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}" />
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('/img/apple-icon.png') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="{{ asset('/css/app.css') }}" />
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}" />
     @livewireStyles
     <title>一帆資訊報關行 | EFUN.CB</title>
 </head>
