@@ -153,6 +153,10 @@
             <x-jet-responsive-nav-link href="{{ route('contact-us-list') }}" :active="request()->routeIs('contact-us-list')">
                 {{ __('Contract Us') }}
             </x-jet-responsive-nav-link>
+
+            <x-jet-responsive-nav-link href="{{ route('user-login-history') }}" :active="request()->routeIs('user-login-history')">
+                {{ __('User Login History') }}
+            </x-jet-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
