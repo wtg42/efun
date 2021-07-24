@@ -20,9 +20,9 @@ class ContactUsController extends Controller
         // $contactUs = ContactUs::where('id', '>', 3)->take(10)->get();
         $contactUs = ContactUs::where('id', '>=', 3)->paginate(2);
         // $contactUs = ContactUs::paginate(1);
-        // return response()->json($contactUs, 200);
+        return response()->json($contactUs, 200);
         // return new ContactUsResource($contactUs);// 這個會500爆炸
-        return ContactUsResource::collection($contactUs)->response()->setStatusCode(200);
+        // return ContactUsResource::collection($contactUs)->response()->setStatusCode(200);
     }
 
     /**
