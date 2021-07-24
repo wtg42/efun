@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ContactUs;
+use App\Http\Resources\ContactUsResource;
 use App\Mail\ContactUsMail;
+use App\Models\ContactUs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use App\Http\Resources\ContactUsResource;
 
 class ContactUsController extends Controller
 {

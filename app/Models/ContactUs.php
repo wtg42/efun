@@ -2,9 +2,9 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class ContactUs extends Model
 {
@@ -35,7 +35,7 @@ class ContactUs extends Model
      */
     public function getTestAttribute($value)
     {
-        $value = 'Test Value:'.$this->name;
+        $value = 'Test Value:' . $this->name;
         return $this->attributes['test'] = $value;
     }
 }
