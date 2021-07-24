@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class ContactUs extends Model
 {
     protected $table = 'contact_us';
-    protected $appends = array('test'); // 陣列新增model欄位
+    protected $appends = array('test'); // 新增 model collections 欄位
     use SoftDeletes;
     use HasFactory;
     protected $fillable = [
@@ -29,7 +29,7 @@ class ContactUs extends Model
     }
 
     /**
-     * 測試api輸出
+     * 新增 $this->appends 欄位 對應新增函數輸出
      * @param mixed $value
      * @return string
      */
