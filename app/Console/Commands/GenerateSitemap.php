@@ -2,8 +2,8 @@
 
 namespace App\Console\Commands;
 
-use Illuminate\Console\Command;
 use App\Services\SitemapServices;
+use Illuminate\Console\Command;
 
 // sitemap artisan command
 
@@ -41,6 +41,6 @@ class GenerateSitemap extends Command
     public function handle()
     {
         // SitemapGenerator::create('https://efun-cb.herokuapp.com/')->writeToFile(public_path('sitemap.xml'));
-        SitemapServices::NewSitemap();
+        SitemapServices::newSitemap();
     }
 }
