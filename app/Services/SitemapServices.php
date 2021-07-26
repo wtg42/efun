@@ -6,7 +6,7 @@ use Spatie\Sitemap\SitemapGenerator;
 
 class SitemapServices
 {
-    static public function NewSitemap()
+    public static function newSitemap()
     {
         SitemapGenerator::create('https://efun-cb.herokuapp.com/')->writeToFile(public_path('sitemap.xml'));
     }
