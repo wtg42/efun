@@ -2,8 +2,8 @@
 
 namespace App\Http\Livewire;
 
-use Livewire\Component;
 use App\Models\ContactUs;
+use Livewire\Component;
 use Livewire\WithPagination;
 
 class EfunContactUsList extends Component
@@ -15,7 +15,7 @@ class EfunContactUsList extends Component
     {
         // $this->userList = ContactUs::all();
         // return view('livewire.efun-contact-us-list');
-        $userList = ContactUs::paginate(2);
+        $userList = ContactUs::paginate(5);
         return view('livewire.efun-contact-us-list', ['userList' => $userList]); // 分頁用
     }
 
@@ -24,6 +24,6 @@ class EfunContactUsList extends Component
         $contactUs = ContactUs::find($removeID);
         $contactUs->delete();
     }
-
 }
+
 // to-do wire:click刪除紀錄

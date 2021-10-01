@@ -8,10 +8,10 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class ContactUs extends Model
 {
-    protected $table = 'contact_us';
-    protected $appends = array('test'); // 新增 model collections 欄位
     use SoftDeletes;
     use HasFactory;
+    protected $table = 'contact_us';
+    protected $appends = array('test'); // 輸出 array 必須添加，名稱必須對應 Accessor。
     protected $fillable = [
         'name',
         'email',
@@ -29,13 +29,13 @@ class ContactUs extends Model
     }
 
     /**
-     * 新增 $this->appends 欄位 對應新增函數輸出
+     * Test Accessor.
      * @param mixed $value
      * @return string
      */
     public function getTestAttribute($value)
     {
-        $value = 'Test Value:' . $this->name;
-        return $this->attributes['test'] = $value;
+        $value = 'Test Attrinute: ' . $this->name;
+        return $value;
     }
 }

@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\ContactUsController;
+use App\Models\ContactUs;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactUsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,3 +39,8 @@ Route::get('/workbench', function () {
 
 // Contact Us Send Mail
 Route::get('/mailto-customer/{customerEmail}', [ContactUsController::class, 'sendEmail']);
+
+// Test route.
+Route::middleware(['auth:sanctum'])->get('/test', function () {
+    dd(ContactUs::limit(1)->get()->first()->toArray());
+});

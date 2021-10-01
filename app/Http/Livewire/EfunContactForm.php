@@ -2,8 +2,8 @@
 
 namespace App\Http\Livewire;
 
-use Livewire\Component;
 use App\Models\ContactUs;
+use Livewire\Component;
 
 class EfunContactForm extends Component
 {
@@ -13,18 +13,18 @@ class EfunContactForm extends Component
 
     // form reuls
     protected $rules = [
-        'name'    => 'required|min:2',
-        'email'   => 'required|email',
+        'name' => 'required|min:2',
+        'email' => 'required|email',
         'message' => 'required|min:6',
     ];
 
     protected $messages = [
-        'name.required'    => '姓名不能空白',
-        'name.min'         => '最少需要2個字',
-        'email.required'   => 'Email欄位不能留空',
-        'email.email'      => 'Email格式錯誤.',
+        'name.required' => '姓名不能空白',
+        'name.min' => '最少需要2個字',
+        'email.required' => 'Email欄位不能留空',
+        'email.email' => 'Email格式錯誤.',
         'message.required' => '訊息不能空白.',
-        'message.min'      => '訊息最少6個字.',
+        'message.min' => '訊息最少6個字.',
     ];
 
     // Real-time Validation

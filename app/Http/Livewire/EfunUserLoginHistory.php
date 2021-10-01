@@ -2,7 +2,6 @@
 
 namespace App\Http\Livewire;
 
-use App\Models\User;
 use App\Models\UserLog;
 use Livewire\Component;
 use Livewire\WithPagination;
